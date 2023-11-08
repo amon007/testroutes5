@@ -1,0 +1,14 @@
+{
+        "routes" : [
+          {
+            "src" : "/(.*)",
+            "desc" : "/"
+          }
+        ],
+        "rewrites": [
+          {
+            "src": "/category/:_id",
+            "desc": "/category?_id=:_id"
+          }
+        ]
+}
